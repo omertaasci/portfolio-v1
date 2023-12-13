@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Python Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Ömer Taşcı</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="home" class="landing"">
+        <div class="landing-content text-center">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">I'm Ömer Taşcı, a Software Developer.</p>
+            <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+            
+        </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>
+                Hello there! 👋 I'm Ömer Taşcı, a self-taught Sofware Developer with a passion for creating innovative and efficient solutions. 
+                my journey into the world of programming has been driven by an insatiable curiosity and a determination to turn ideas into reality.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container text-center">
+            <h1>Projects</h1>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/images/project1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Country Information App</h5>
+                            <p class="card-text">
+                            Flask app retrieves country details from a REST API. Clean UI with a form for user input. 
+                            Extracts and displays info like name, population, capital, Subregion, Area, Currencies, etc. <h4>Technologies</h4>Flask, requests, 
+                            REST API. Dynamic rendering of data on the main page.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Live Demo</a> -->
+                            <a href="https://github.com/omertaasci/Flask_Countries_App" class="btn btn-dark btn-social" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/images/project2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">ToDo List App</h5>
+                            <p class="card-text">
+                                Flask Todo App built using the Flask framework. 
+                                The app allows users to manage a list of todos, 
+                                including adding new todos, marking them as completed, and deleting them.
+                                <h4>Technologies</h4>Flask, SQLAlchemy, Bootstrap. Database created on app start.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Live Demo</a> -->
+                            <a href="https://github.com/omertaasci/Flask_ToDo_App" class="btn btn-dark btn-social" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="/images/project3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather App</h5>
+                            <p class="card-text">Flask weather web app using OpenWeatherMap API. Enter a city to get current weather: city name, temperature, 
+                                description, and icon. Replace 'API_KEY' with your OpenWeatherMap API key.
+                                <h4>Technologies</h4>Flask, requests, REST API. Dynamic rendering of data on the main page.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Live Demo</a> -->
+                            <a href="https://github.com/omertaasci/Flask_Weather_App" class="btn btn-dark btn-social" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container text-center">
+        <h2>Contact Me</h2>
+        <p class="lead">
+            Feel free to reach out to me. Whether you have a question or just want to say hello, I'll get back to you as soon as possible.
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form">
+                    <h1>omertaasci12@gmail.com</h1>
+                    +90 0536 922 59 85
+                </form>
+            </div>
+
+            
+        </div>
+        <div class="social-links mt-4">
+            <h2>Socials</h3>
+            <a href="https://www.linkedin.com/in/ömer-taşcı-5213102a0/" class="btn btn-dark btn-social" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a href="https://github.com/omertaasci" class="btn btn-dark btn-social" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2023 Ömer Taşcı - Software Developer</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

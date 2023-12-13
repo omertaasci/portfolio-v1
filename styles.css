@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    padding-right: 50px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white !important;
+}
+
+.nav-link li {
+    margin-right: 30px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 38px !important;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.nav-item a:hover {
+    border-radius: 5px;
+    transition: white 0.1s;
+    color: rgb(184, 182, 182) !important;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: no-repeat center center;
+    background-size: cover;
+    background-image: url('/images/bg.jpg');
+}
+
+.display-4{
+    font-size: 80px !important;
+}
+
+.lead{
+    padding-bottom: 250px;
+    font-size: 28px !important;
+}
+
+.about {
+    padding: 80px 0;
+    background-color: #101214;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.about h2{
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+.about p{
+    font-size: 20px;
+}
+
+.projects {
+    padding: 80px 0;
+    background-color: #212529;
+    
+}
+
+.projects h1{
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #101214 !important;
+    color: white;
+}
+/* Add these styles to your existing styles.css */
+
+.contact {
+    padding: 80px 0;
+    background-color: #101214;
+}
+
+.contact h2 {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.contact p {
+    color: white;
+    padding-bottom: 30px;
+}
+
+#contact-form {
+    margin-bottom: 20px;
+}
+
+.form-control,
+.btn-primary {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-social {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 16px;
+}
